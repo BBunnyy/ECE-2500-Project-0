@@ -6,16 +6,13 @@ ECE 2500 (Computer Organization and Architecture) Project 1
 Running code (.exe, or in visual studio):
 1. Download the project as a .zip and extract.
 
-2. Ensure you save the .obj files to be tested to the folder myDisassembler_Taylor. 
-	(*This is in the myDisassembler_Taylor folder)
+2. Ensure you save any of the .obj files to be tested to the extracted folder
 
 3. Open the Command Prompt window (search cmd in windows search bar).
 
-4. In the Command Prompt window, navigate to the myDisassembler_Taylor folder of myDisassembler like so:
-	cd Users\???\Desktop\myDisassembler_Taylor\
-		(??? is the user where the file is downloaded)
+4. In the Command Prompt window, navigate to the extracted folder
 
-5. Run the .exe program by typing: myDisassembler *.obj
+5. Run the myDisassembler.exe program by typing: myDisassembler *.obj
 	(* is replaced with the file name)
 
 6. Errors and progress are written to the command line, and the output *.s file is written to the same folder the .exe is in.
@@ -24,7 +21,6 @@ Running code (.exe, or in visual studio):
 7. If this does not work, you can open the program in Visual Studio:
 	1. Open Visual Studio
 	2. Select "Open a project or solution"
-	3. Navigate to \myDisassembler_Taylor\myDisassembler
 	4. Select "myDisassembler.sln"
 	5. Open myDisassembler.cpp if it isn't already
 	6. Ensure you save the .obj files to be tested to the myDisassembler folder where the project/solution is.
